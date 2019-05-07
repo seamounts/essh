@@ -12,7 +12,9 @@ go get -u github.com/seamounts/essh
 
 ### 配置
 
-example:
+在用户目录创建：`.essh.yaml` 或者 `essh.yaml`
+
+配置格式如下:
 
 ```yaml
 - name: 通过密钥登陆
