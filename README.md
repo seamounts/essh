@@ -15,13 +15,13 @@ go get -u github.com/seamounts/essh
 example:
 
 ```yaml
-- name: 北京区
+- name: 通过密钥登陆
   user: root
   host: 1.2.3.4
   port: 22
   keypath: path-key
 
-- name: 上海区
+- name: 通过密码登陆
   user: root
   host: 5.6.7.8
   port: 22
