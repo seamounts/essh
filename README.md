@@ -10,6 +10,8 @@ ssh 登陆管理工具
 go get -u github.com/seamounts/essh
 ```
 
+可执行文件下载地址：[binary.tar.gz](https://github.com/seamounts/essh/releases/download/v1.0.0/binary.tar.gz)
+
 ### 配置
 
 在用户目录创建：`.essh.yaml` 或者 `essh.yaml`
