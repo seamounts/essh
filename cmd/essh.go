@@ -22,10 +22,17 @@ var ESSHCmd = &cobra.Command{
 	},
 }
 
-func Execute() {
+func Execute(version string) {
+	initVersion(version)
+
 	if err := ESSHCmd.Execute(); err != nil {
 		log.Fatal(err)
 	}
+}
+
+func initVersion(version string) {
+	ESSHCmd.Version = version
+	ESSHCmd.SetVersionTemplate(fmt.Sprintf("essh version: %s\n", version))
 }
 
 var (
