@@ -5,7 +5,6 @@ ssh 登陆管理工具
 ![usage](./assets/essh.gif)
 
 ### 安装
-
 ```
 go get -u github.com/seamounts/essh
 ```
